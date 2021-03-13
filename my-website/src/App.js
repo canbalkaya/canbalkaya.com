@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import NavbarBrand from "react-bootstrap/esm/NavbarBrand";
@@ -42,7 +42,7 @@ class App extends React.Component {
             <Navbar.Brand>Can Balkaya</Navbar.Brand>
             <Navbar.Toggle aria-controls = "navbar-toggle"/>
             <Navbar.Collapse id = "navbar-toggle">
-              <Nav>
+              <Nav className = "ml-auto">
                 <Link className = "nav-link" to = "/">Home</Link>
                 <Link className = "nav-link" to = "/blog">Blog</Link>
                 <Link className = "nav-link" to = "/contact">Contact</Link>
