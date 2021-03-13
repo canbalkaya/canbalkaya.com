@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
-import NavbarBrand from "react-bootstrap/esm/NavbarBrand";
 import Nav from "react-bootstrap/esm/Nav";
 import './App.css';
 
@@ -38,9 +37,9 @@ class App extends React.Component {
     return(
       <Router>
         <Container className = "p-0" fluid = { true }>
-          <Navbar className = "border-bottom"> 
+          <Navbar className = "border-bottom"  bg = "transparent" expand = "lg"> 
             <Navbar.Brand>Can Balkaya</Navbar.Brand>
-            <Navbar.Toggle aria-controls = "navbar-toggle"/>
+            <Navbar.Toggle className = "border-0" aria-controls = "navbar-toggle"/>
             <Navbar.Collapse id = "navbar-toggle">
               <Nav className = "ml-auto">
                 <Link className = "nav-link" to = "/">Home</Link>
