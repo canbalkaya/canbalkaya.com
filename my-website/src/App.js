@@ -1,10 +1,13 @@
 import React from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/esm/Nav";
 import './App.css';
 
+import HomePage from "./pages/HomePage";
+import BlogPage from "./pages/BlogPage";
+import ContactPage from "./pages/ContactPage";
 import Footer from "./components/Footer";
 
 class App extends React.Component {
@@ -21,12 +24,12 @@ class App extends React.Component {
 
       home: {
         title: "Can Balkaya",
-        description: "This is my website.",
+        subTitle: "This is my website.",
         text: "This is my website."
       },
 
       blog: {
-        title: "About Me",
+        title: "Blog",
       },
 
       contact: {
@@ -53,6 +56,10 @@ class App extends React.Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
+
+          <Route path = "/" exact render = { () => <HomePage title = { this.state.home.title } subTitle = { this.state.home.subTitle } text = { this.state.home.text }/> }/>
+          <Route path = "/blog" render = { () => <BlogPage title = { this.state.blog.title }/> }/>
+          <Route path = "/contact" render = { () => <ContactPage title = { this.state.contact.title }/> }/>
 
           <Footer />
         </Container>
