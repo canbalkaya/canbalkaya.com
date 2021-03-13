@@ -5,6 +5,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/esm/Nav";
 import './App.css';
 
+import Footer from "./components/Footer";
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -37,8 +39,8 @@ class App extends React.Component {
     return(
       <Router>
         <Container className = "p-0" fluid = { true }>
-          <Navbar className = "border-bottom"  bg = "transparent" expand = "lg"> 
-            <Navbar.Brand>
+          <Navbar className = "border-bottom"  bg = "transparent" expand = "lg">
+            <Navbar.Brand> 
               <img className = "brandImage" src = "Logo.png" alt="logo" width = "70" height = "50"></img>
               <strong>Can Balkaya</strong>
             </Navbar.Brand>
@@ -51,6 +53,8 @@ class App extends React.Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
+
+          <Footer />
         </Container>
       </Router>
     );
