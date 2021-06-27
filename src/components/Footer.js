@@ -12,7 +12,7 @@ function Footer() {
                         Can Balkaya
                     </Col>
                     <Col className = "p-0 d-flex justify-content-end" md = {3}>
-                        Copyright © 2021 Can Balkaya
+                        This site was made by me.
                     </Col>
                 </Row>
             </Container>
