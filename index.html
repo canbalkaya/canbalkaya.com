@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- MARK: Meta Datas -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- MARK: Editable Meta Datas -->
+  <meta name="author" content="Can Balkaya">
+  <meta name="description" content="personal website">
+  <meta name="keywords" content="portfolio, development, design">
+
+  <!-- MARK: Page Title -->
+  <title>Can Balkaya</title>
+
+  <!-- MARK: Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+  <!-- MARK: Page Icon -->
+  <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
+
+  <!-- MARK: CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+  <!-- MARK: Container -->
+  <div class="container py-5">
+    <header>
+      <div class="d-flex flex-column flex-md-row pb-3 mb-4 border-bottom">
+        <a href="/" class="d-flex text-dark text-decoration-none">
+          <picture>
+            <source srcset="/images/logolight.svg" media="(prefers-color-scheme: light)">
+            <img alt="Can Balkaya" height="30" src="/images/logodark.svg">
+          </picture>
+        </a>
+      </div>
+    </header>
+
+  <!-- MARK: News Section -->
+  <div class="news">
+    <div class="container py-5">
+      <div class="news-title"><h2>Articles</h2></div>
+
+      <!-- MARK: Space -->
+      <br>
+      
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <a href="https://medium.com/turkishkit/wwdc21-swiftui-yenilikleri-e8354437002e">
+            <div class="card">
+              <img class="card-img" src="https://miro.medium.com/max/2560/1*VOZSRgm3OfErmJ1KuV2mfw.png" alt="Bologna">
+              <div class="card-body p-4">
+                <p class="card-subtitle mb-1">PRESS RELEASE</p>
+                <h5 class="card-title">WWDC21: SwiftUI’a Gelen Yenilikler</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <a href="https://medium.com/turkishkit/wwdc21-attributedstring-74de778d8b60">
+            <div class="card">
+              <img class="card-img" src="https://miro.medium.com/max/2560/1*ZYczhV8Fsb0eVohbxMvaeg.png" alt="Bologna">
+              <div class="card-body p-4">
+                <p class="card-subtitle mb-1">PRESS RELEASE</p>
+                <h5 class="card-title">WWDC21: AttributedString</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <a href="https://medium.com/turkishkit/swift-property-observers-f279f3dc639">
+            <div class="card">
+              <img class="card-img" src="https://miro.medium.com/max/2560/1*CQzMvHPdExVlQkaJlUhmJw.png" alt="Bologna">
+              <div class="card-body p-4">
+                <p class="card-subtitle mb-1">UPDATE</p>
+                <h5 class="card-title">Swift: Property Observers</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="blog" class="blog">
+    <div class="blog__header">
+      <p class="blog__header1">some of my</p>
+      <h2 class="blog__header2">Medium
+        <span class="blog__header2Span">posts</span>
+      </h2>
+    </div>
+    <ul class="blog__slider">
+      Posts go here
+    </ul>
+    <ul class="blog__counter">
+      <li class="blog__counterItem blog__counterItem-active"></li>
+      <li class="blog__counterItem"></li>
+      <li class="blog__counterItem"></li>
+    </ul>
+  </section>
+
+    <!-- Footer -->
+    <footer class="pt-3 mt-4 text-muted border-top mb-2">
+      &copy; Copyright © 2021 Can Balkaya
+    </footer>
+  </div> 
+
+  <!-- MARK: Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+</body>
+</html>
