@@ -229,8 +229,8 @@ a {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 30px 10%;
-   background-color: #24252a;
+   /* padding: 30px 10%; */
+   /* background-color: #24252a; */
  }
  
  .logo {
@@ -302,7 +302,7 @@ a {
    z-index: 1;
    left: 0;
    top: 0;
-   background-color: #24252a;
+   /* background-color: #24252a; */
    overflow-x: hidden;
    transition: all 0.5s ease 0s;
  }
