@@ -6,7 +6,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 body {
-    background-color: black;
+    background-color: inherit;
 }
 
 .container {
@@ -123,7 +123,7 @@ body {
 }
 
 a {
-   
+
     text-decoration: none;
   }
   ul{
