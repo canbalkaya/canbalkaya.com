@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6 {
    display: flex;
 }
 
+p {
+   color: white;
+}
+
 .consultant {
    align-items: center;
 }
@@ -27,6 +31,11 @@ body {
     padding-right: 15px;
 }
 
+.buttonContainer {
+   display: flex;
+   justify-content: center;
+}
+
 .card1 {
     border-radius: 10px;
     background-color: white;
@@ -43,34 +52,33 @@ body {
   }
 
   .card-body {
-     background-color: black;
-      /* background-color: #f2f2f7; */
+      background-color: black;
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
   }
 
   .card {
-    border: none !important;
-    border-radius: 10px;
+      border: none !important;
+      border-radius: 10px;
   }
   
   a:link {
-  text-decoration: none;
+      text-decoration: none;
   }
   
   .card-title {
-    color: black;
+      color: white;
   }
 
   .card-img {
-    height: 250px;
-    object-fit: cover;
-    background-color: #0a0a0a;
+      height: 250px;
+      object-fit: cover;
+      background-color: white;
 
-    border-top-left-radius: 10px !important;
-    border-top-right-radius: 10px !important;
-    border-bottom-right-radius: 0px !important;
-    border-bottom-left-radius: 0px !important;
+      border-top-left-radius: 10px !important;
+      border-top-right-radius: 10px !important;
+      border-bottom-right-radius: 0px !important;
+      border-bottom-left-radius: 0px !important;
   }
 
   .iPhone50{
@@ -92,7 +100,7 @@ body {
 }
 
 .news-title h2 {
-  color: black;
+  color: white;
 }
 
 .news-subtitle h6 {
@@ -101,7 +109,7 @@ body {
 }
 
 .news {
-  background-color: black;
+  background-color: #3A3A3A;
 }
 
 @media (prefers-color-scheme: light) {
@@ -109,8 +117,16 @@ body {
     background-color: white;
   }
 
-  h1,h2,h3,h4,h5,h6 {
-    color: black;
+   p {
+      color: black;
+   }
+
+  header {
+     background-color: #3A3A3A;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: white;
   }
 
   .card1 {
@@ -119,11 +135,11 @@ body {
   }
 
   .card-body {
-    background-color: #1c1c1e;
+    background-color: white;
   }
 
   .card-title {
-    color: white;
+    color: black;
   }
 
   .news-title h2 {
@@ -133,6 +149,12 @@ body {
     background-color: #F2F2F7;
     align-items: center;
   }
+}
+
+header {
+   margin: 0;
+   background: #3A3A3A;
+   background-size:100% 100%;
 }
 
 .customButton {
