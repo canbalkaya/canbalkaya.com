@@ -219,3 +219,6 @@ a {
      } */
   }
     
+.header-right {
+   float: right;
+}
