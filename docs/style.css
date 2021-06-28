@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .info {
-   display: flex;
+   display: grid;
    padding-top: 50px;
    padding-bottom: 50px;
 }
