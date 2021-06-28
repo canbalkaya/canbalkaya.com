@@ -93,12 +93,6 @@ body {
    font-weight: bold;
  }
  
- /* Style the active/current link*/
- .header a.active {
-   background-color: dodgerblue;
-   color: white;
- }
- 
  /* Float the link section to the right */
  .header-right {
    float: right;
@@ -210,6 +204,22 @@ body {
 }
 
 @media (prefers-color-scheme: light) {
+   .header {
+      background-color: #fafafa;
+   }
+
+   .footer {
+      background-color: #fafafa;
+   }
+
+   .header a {
+      color: black;
+   }
+
+   .links a {
+      color: black;
+   } 
+
   body {
     background-color: white;
   }
