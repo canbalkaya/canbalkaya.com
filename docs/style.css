@@ -236,7 +236,7 @@ a {
  .logo {
    cursor: pointer;
    order: 3;
-   margin-left: auto;
+   margin-left: 0;
  }
  
  nav {
