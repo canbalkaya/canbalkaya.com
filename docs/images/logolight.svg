@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="2498px" height="477px" viewBox="0 0 2498 477" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Icon/Header/Dark</title>
-    <g id="Icon/Header/Dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="SFCompact-Bold, SF Compact" font-size="400" font-weight="bold" letter-spacing="34">
-        <text id="Can-Balkaya" fill="#FFFFFF">
+    <title>Icon/Header/Light</title>
+    <g id="Icon/Header/Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="SFCompact-Bold, SF Compact" font-size="400" font-weight="bold" letter-spacing="34">
+        <text id="Can-Balkaya" fill="#000000">
             <tspan x="0" y="381">Can Balkaya</tspan>
         </text>
     </g>
