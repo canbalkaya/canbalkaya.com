@@ -28,32 +28,33 @@
 
 <body>
 
-  <!-- MARK: Container -->
-  <div class="container py-5">
-    <header>
-      <div class="d-flex flex-column flex-md-row pb-3 mb-4 border-bottom">
-        <a href="/">
+  <header class="header">
+    <div class="container">
+      <div class="headerContainer">
+        <a class="logo" href="/">
           <picture>
             <source srcset="images/logodark.svg" media="(prefers-color-scheme: light)">
             <img alt="Can Balkaya" src="images/logolight.svg">
           </picture>
         </a>
-        <div>
+        <div class="header-right">
           <a href="https://canbalkaya.blog">Blog</a>
-          <a href="https://canbalkaya.blog">Blog</a>
-          <a href="https://canbalkaya.blog">Blog</a>
-        </div>
+          <a href="https://superpeer.com/canbalkya">Consultant</a>
+          <a href="mailto:contact.canbalkaya@gmail.com">Contact</a>
+        </div>      
       </div>
-    </header>
-  </div>
-
-  <div class="info">
-    <div>
-      <h1>Hi, everyone!</h1>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
     </div>
-    <div> 
-      <img src="images/Profile Photo.png">
+  </header>
+  
+  <div class="container">
+    <div class="info">
+      <div>
+        <h1>About Me</h1>
+        <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h6>
+      </div>
+      <div> 
+        <img class="image" src="images/Profile Photo.png">
+      </div>
     </div>
   </div>
 
@@ -111,21 +112,28 @@
     </div>
   </div>
     
-  <div class="consultant">
-    <h3>Get Consulting Support</h3>
-    <p>If you are looking for a freelance developer for your iOS or macOS app or company, you can book a call and talk with me.</p>
-    <a class="customButton" href="https://superpeer.com/canbalkya">Book a call</a>
+  <div class="container">
+    <div class="consultant">
+      <h2>Get Consulting Support</h2>
+      <p>If you are looking for a freelance developer for your iOS or macOS app or company, you can book a call and talk with me.</p>
+      <a class="customButton" href="https://superpeer.com/canbalkya">Book a call</a>
+    </div>
   </div>
 
     <!-- Footer -->
-    <footer class="pt-3 mt-4 text-muted border-top mb-2">
-      &copy; Can Balkaya, 2021
+    <footer class="footer">
+      <div class="container">
+        <div class="links">
+          <a href="https://canbalkaya.blog">Blog</a>
+          <a href="https://github.com/canbalkaya">Github</a>
+          <a href="https://superpeer.com/canbalkya">Superpeer</a>
+          <a href="https://www.linkedin.com/in/canbalkaya/">LinkedIn</a>
+          <a href="https://twitter.com/canbalkya">Twitter</a>
+          <a href="https://www.youtube.com/channel/UCPuIbkxNhzWAT9ZhE3wt4RQ">YouTube</a>
+        </div>
+        <p class="copyright">&copy; Can Balkaya, 2021</p>
+      </div>
     </footer>
-  </div> 
-
-  <!-- MARK: Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-    crossorigin="anonymous"></script>
+  </div>
 </body>
 </html>
