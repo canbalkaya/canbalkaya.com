@@ -310,7 +310,6 @@ body {
    z-index: 1;
    left: 0;
    top: 0;
-   /* background-color: #24252a; */
    overflow-x: hidden;
    transition: all 0.5s ease 0s;
  }
@@ -346,7 +345,7 @@ body {
    color: #edf0f1;
  }
  
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 500px) {
     .overlay a {
       font-size: 20px;
     }
@@ -361,5 +360,18 @@ body {
       display: grid;
       padding-top: 30px;
       padding-bottom: 30px;
+   }
+
+   .image {
+    margin-left: 0px;
+   }
+
+   .consultant {
+    padding-right: 20%;
+    padding-left: 20%;
+   }
+
+   .links a {
+      font-size: 16px;
    }
 }
